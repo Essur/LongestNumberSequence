@@ -24,5 +24,26 @@ if (returnValue == JFileChooser.APPROVE_OPTION) {
 
 1. Clone this repository to your local machine:
  ```bash
- git clone https://github.com/yourusername/puzzle-solver.git
+git clone https://github.com/Essur/LongestNumberSequence
  ```
+2. Move to project dir:
+```bash
+cd LongestNumberSequence
+```
+3. Write command to maven wrapper:
+Linux:
+```bash
+chmod +x mvnw
+```
+```bash
+./mvnw clean package
+```
+Windows:
+Command prompt:
+```bash
+mvnw.cmd clean package
+```
+PowerShell:
+```bash
+.\mvnw.cmd clean package
+```
