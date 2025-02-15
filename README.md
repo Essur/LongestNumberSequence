@@ -34,8 +34,6 @@ cd LongestNumberSequence
 Linux:
 ```bash
 chmod +x mvnw
-```
-```bash
 ./mvnw clean package
 ```
 Windows:
