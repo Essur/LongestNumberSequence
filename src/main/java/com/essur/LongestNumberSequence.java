@@ -7,7 +7,7 @@ import java.util.List;
 import static com.essur.FileReader.readNumbersFromFile;
 import static com.essur.NumberPuzzle.findLongestSequence;
 
-public class Main {
+public class LongestNumberSequence {
     public static void main(String[] args) {
         JFileChooser fileChooser = new JFileChooser();
         int returnValue = fileChooser.showOpenDialog(null);
